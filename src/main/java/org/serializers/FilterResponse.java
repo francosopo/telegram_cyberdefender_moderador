@@ -1,7 +1,6 @@
 package org.serializers;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 public class FilterResponse {
     private String className;
