@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a386d8-7581-413e-b8bc-888930061796" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/config/ConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ModeradorCyberdefender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/serializers/FilterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/serializers/QueryString.java" afterDir="false" />
+    <list default="true" id="f2a386d8-7581-413e-b8bc-888930061796" name="Changes" comment="Conexión con filtro de acoso listo, falta testing">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/commands/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/commands/IdentifierCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/commands/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/commands/interfaces/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/IBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/offensive/AbstractOffensiveClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/offensive/Classifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/offensive/GroomingPersonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/offensive/NotOffensive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/offensive/NotOffensiveExplicit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/offensive/OffensiveGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/offensive/OffensivePersonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/offensive/interfaces/IClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/offensive/interfaces/IOffensive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ModeradorCyberdefender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ModeradorCyberdefender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/serializers/FilterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/serializers/FilterResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +55,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -92,11 +100,28 @@
       <updated>1702496272949</updated>
       <workItem from="1702496274166" duration="4604000" />
       <workItem from="1702587632756" duration="7509000" />
-      <workItem from="1702661649903" duration="413000" />
+      <workItem from="1702661649903" duration="1925000" />
+      <workItem from="1702679747884" duration="835000" />
+      <workItem from="1702741862937" duration="13449000" />
+      <workItem from="1702762218459" duration="3197000" />
+      <workItem from="1702824344775" duration="7446000" />
     </task>
+    <task id="LOCAL-00001" summary="Conexión con filtro de acoso listo, falta testing">
+      <option name="closed" value="true" />
+      <created>1702652613322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702652613322</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Conexión con filtro de acoso listo, falta testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conexión con filtro de acoso listo, falta testing" />
   </component>
 </project>

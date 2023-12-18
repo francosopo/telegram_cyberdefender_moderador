@@ -1,18 +1,22 @@
 package org.serializers;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+
 public class FilterResponse {
-    private String clase;
+    private String className;
     private Long[] responsibles;
 
-    public FilterResponse(String clase, Long[] responsibles)
+    public FilterResponse(@JsonProperty("class_name") String className, @JsonProperty("responsibles") Long[] responsibles)
     {
-        this.clase = clase;
+        this.className = className;
         this.responsibles = responsibles;
     }
 
+    @JsonProperty("class_name")
     public String getClase()
     {
-        return this.clase;
+        return this.className;
     }
 
     public Long[] getResponsibles()
@@ -24,8 +28,8 @@ public class FilterResponse {
         this.responsibles = responsibles;
     }
 
-    public void setClase(String clase)
+    public void setClassName(String clase)
     {
-        this.clase = clase;
+        this.className = clase;
     }
 }
